@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyEPSProyect</string>
+    <string name="title_activity_opciones_usuario">OpcionesUsuarioActivity</string>
+</resources>

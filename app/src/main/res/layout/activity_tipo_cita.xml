@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tipo_cita"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vitaly.myepsproyect.TipoCitaActivity"
+    android:background="@drawable/tipocita"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TIPO CITA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:textSize="32sp"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="prioritaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPrioritaria"
+        android:backgroundTint="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGeneral"
+        android:backgroundTint="@color/colorPrimaryDark" />
+
+    <Button
+        android:text="especialista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEspecialista"
+        android:backgroundTint="@color/colorPrimaryDark" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.94" />
+
+    <Button
+        android:text="volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVolverAOpciones"
+        android:onClick="volverOpcionesUsuario"
+        android:backgroundTint="@android:color/holo_red_light" />
+</LinearLayout>

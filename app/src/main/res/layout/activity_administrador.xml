@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_administrador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vitaly.myepsproyect.AdministradorActivity"
+    android:background="@drawable/administrador"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="OPCIONES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textColor="@android:color/background_light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <Button
+        android:text="buscar usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBuscarUsuario"
+        android:onClick="BuscarUsu"
+        android:backgroundTint="@android:color/holo_blue_dark" />
+
+    <Button
+        android:text="listar usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnListarUsuario"
+        android:onClick="listaUsuario"
+        android:backgroundTint="@android:color/holo_blue_dark" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.93" />
+
+    <Button
+        android:text="cerrar sesión"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCerrarSesionAdmin"
+        android:onClick="cerrarAdmin"
+        android:backgroundTint="@android:color/holo_red_light" />
+
+</LinearLayout>
